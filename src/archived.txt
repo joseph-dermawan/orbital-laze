@@ -1,0 +1,28 @@
+archive as of 16 July 1.00am
+App.jsx
+import './App.css';
+import LoginSignup from './Components/Login-signup/LoginSignup';
+import React, {useState} from 'react'
+import {useNavigate} from 'react-router-dom'
+import Home from './Components/Home/Home'
+import {supabase} from "./lib/helper/supabaseClient";
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+
+function App() {
+
+  return (
+    <Router>
+      <div className='App'>
+        <div className='content'>
+          <Routes>
+            <Route path="/" element={<LoginSignup supabase = {supabase} />} />
+            <Route path="/home" element={<Home />} /> 
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
+

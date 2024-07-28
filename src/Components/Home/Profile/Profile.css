@@ -1,0 +1,18 @@
+.hometm{
+    display: flex;
+}
+
+.heading{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.profile{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 320px;
+    padding-left: 10px;
+    padding: 10px;
+    color:white;
+}
+

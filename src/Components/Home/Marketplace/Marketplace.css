@@ -1,0 +1,25 @@
+.hometm{
+    display: flex;
+}
+
+.heading{
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.marketplace{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 320px;
+    padding-left: 10px;
+    padding: 10px;
+    color:white;
+}
+
+.mtasks{
+    padding: 20px;
+    margin: 0 10px;
+    color: #2b2e35;
+}
+

@@ -1,0 +1,36 @@
+.hometm{
+    display: flex;
+}
+
+.heading{
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.task-manager{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 320px;
+    padding-left: 10px;
+    padding: 10px;
+    color:white;
+}
+
+.alltask{
+    padding: 10px;
+    size: 20%;
+    color: white;
+}
+
+.taskform{
+    padding: 10px;
+}
+
+
+.tasks{
+    padding: 20px;
+    margin: 0 10px;
+    color: #2b2e35;
+}
+
