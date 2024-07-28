@@ -1,7 +1,7 @@
 import './App.css';
 import LoginSignup from './Components/Login-signup/LoginSignup';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import TaskManager from './Components/Home/TaskManager/TaskManager';
 import Profile from './Components/Home/Profile/Profile';
