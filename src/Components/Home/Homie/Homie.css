@@ -1,0 +1,21 @@
+.homie{
+    display: flex;
+}
+
+.welcome{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.homiett{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 320px;
+    padding-left: 10px;
+    padding: 10px;
+    color:white;
+}
+
+.feed{
+    padding: 20px;
+}
