@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import TaskForm from './../TaskForm/TaskForm';
 import { supabase } from '../../../lib/helper/supabaseClient';
 import Tasks from './../Tasks/Tasks';
-import {useNavigate} from 'react-router-dom'
 import './TaskManager.css';
 import Sidebar from '../Sidebar/sidebar';
 

@@ -23,7 +23,7 @@ const Sidebar = () => {
         </div>
         <ul>
             <li>
-                <a href="/home">Home</a>
+                <a href="/home/homie">Home</a>
             </li>
             <li>
                 <a href="/home/taskmanager">Your Tasks</a>
